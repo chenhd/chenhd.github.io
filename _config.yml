@@ -5,8 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme             : "mmistakes/minimal-mistakes"
-# theme                    : "minimal-mistakes-jekyll"
+# remote_theme             : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
 
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -107,36 +107,36 @@ social:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
+  avatar           : "/assets/images/so happy.jpg"
   bio              : "Just another boring, tattooed, time traveling, designer."
-  location         : "Buffalo, NY"
+  location         : "Zhuhai, GD"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+    # - label: "Made Mistakes"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://mademistakes.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+    - label: "WetChat"
+      icon: "fab fa-fw fa-weixin"
+      url: "https://github.com/mmistakes"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/mmistakes"
 
 
 # Reading Files
@@ -221,8 +221,8 @@ defaults:
       author_profile: true
       read_time: false # true
       comments: true
-      share: true
-      related: true
+      share: false # true
+      related: false # true
   # _pages
   - scope:
       path: "_pages"
@@ -249,7 +249,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false # true
       comments: true
   # _pets
   - scope:
@@ -258,7 +258,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false # true
       comment: true
   # _portfolio
   - scope:
@@ -267,7 +267,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false # true
 
 
 # Sass/SCSS
