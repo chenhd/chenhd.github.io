@@ -109,7 +109,7 @@ author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/so happy.jpg"
   bio              : "愿我出走半生，归来仍是少年。生活正在前行，而我仍在路上。"
-  location         : "Zhuhai, GD"
+  location         : "Shantou, GD"
   links:
     # - label: "Made Mistakes"
     #   icon: "fas fa-fw fa-link"

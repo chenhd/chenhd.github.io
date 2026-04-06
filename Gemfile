@@ -18,3 +18,11 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+
+gem "csv", "~> 3.3"
+
+gem "bigdecimal", "~> 4.1"
+
+gem "ostruct", "~> 0.6.3"
+
+gem "faraday-retry", "~> 2.4"
